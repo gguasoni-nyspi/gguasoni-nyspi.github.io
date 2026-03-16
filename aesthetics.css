@@ -1,6 +1,32 @@
 /*The Page Aesthetics and Colour Guidelines */
 
-/*The Aesthetics Guidelines */
+/*Formatting the navigation bar */
+.navbar {
+    background-color: #00057c;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar a {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #f8f8f2;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 0 5px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #0009cb;
+    color: #f8f8f2;
+}
+
+/*formatting the primary backround*/
 body {
     background-color: #fff8f2;
     margin: 0;
