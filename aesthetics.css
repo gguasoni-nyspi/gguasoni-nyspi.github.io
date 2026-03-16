@@ -2,7 +2,7 @@
 
 /*Formatting the navigation bar */
 .navbar {
-    color: #f8f8f2
+    color: #f8f8f2;
     background-color: #00057c;
     text-align: center;
     width: 100%;
@@ -44,14 +44,15 @@
 }
 
 .dropdown-content {
-  display: none !important;
-  position: absolute !important;
-  background-color: #0009cb;
-  min-width: 250px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1000 !important;
-  left: 0;
-  top: 100%;
+    display: none !important;
+    position: absolute !important;
+    background-color: #0009cb;
+    color: #f8f8f2 !important;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000 !important;
+    left: 0;
+    top: 100%;
 }
 
 .dropdown-content a {
